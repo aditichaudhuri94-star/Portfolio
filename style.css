@@ -245,7 +245,7 @@ nav a:hover{
   .home h1{ font-size: 34px; }
   nav a{ margin-left: 12px; font-size: 14px; }
 }
-.profile-pic {
+.profile-img {
   width: 150px;
   height: 150px;
   border-radius: 50%;
@@ -254,5 +254,6 @@ nav a:hover{
   border: 3px solid #7dd3fc;
   box-shadow: 0 8px 20px rgba(0,0,0,0.3);
 }
+
 
 
