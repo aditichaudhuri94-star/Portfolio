@@ -1,118 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Aditi Chaudhuri | Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditi Chaudhuri | Full Stack Developer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <header class="navbar">
-    <h2 class="logo">Aditi.</h2>
-    <nav>
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#skills">Skills</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-    </nav>
+    <div class="container nav-container">
+      <h2 class="logo">Aditi<span>.</span></h2>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
   </header>
 
   <section class="home" id="home">
-    <div class="home-text">
-      <h1>Hi, I'm <span>Aditi Chaudhuri</span> 👋</h1>
-      <p>
-        I’m a 3rd year Computer Science student.  
-        I am learning Web Development and Python and building projects for placements.
-      </p>
-
-      <div class="btns">
-        <a class="btn" href="#projects">View Projects</a>
-        <a class="btn outline" href="#contact">Contact Me</a>
+    <div class="container home-content">
+      <div class="home-text">
+        [cite_start]<p class="subtitle">Full Stack Developer [cite: 4, 15]</p>
+        <h1>Hi, I'm <span>Aditi Chaudhuri</span> 👋</h1>
+        <p class="description">
+          [cite_start]A detail-oriented <strong>Computer Science & Engineering</strong> student[cite: 4, 9]. 
+          [cite_start]I specialize in building responsive front-end interfaces and efficient back-end logic using Python, SQL, and JavaScript[cite: 5, 32].
+        </p>
+        <div class="btns">
+          <a class="btn primary" href="#projects">View Projects</a>
+          <a class="btn secondary" href="ADITI_RESUME.pdf.pdf" download>
+            <i class="fas fa-download"></i> Download Resume
+          </a>
+        </div>
+      </div>
+      <div class="home-img">
+        <img src="aditi.jpg.jpeg" alt="Aditi Chaudhuri">
       </div>
     </div>
   </section>
 
   <section class="section" id="about">
-    <h2>About Me</h2>
-    <p>
-      I am a passionate Computer Science student who enjoys learning new technologies.
-      I am currently focusing on Web Development, Python, and improving problem solving.
-      My goal is to get placed in a good company after graduation.
-    </p>
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-card">
+        <p>
+          [cite_start]I am a CSE student [cite: 9, 10]. 
+          With a strong foundation in Full Stack Web Development, I enjoy building user-centric applications 
+          [cite_start]like roommate finders and financial trackers[cite: 4, 6].
+        </p>
+      </div>
+    </div>
   </section>
 
-  <section class="section" id="skills">
-    <h2>Skills</h2>
-
-    <div class="skills">
-      <div class="skill-card">HTML</div>
-      <div class="skill-card">CSS</div>
-      <div class="skill-card">JavaScript</div>
-      <div class="skill-card">Python</div>
-      <div class="skill-card">C</div>
-      <div class="skill-card">C++</div>
-      <div class="skill-card">Git & GitHub</div>
+  <section class="section bg-light" id="skills">
+    <div class="container">
+      <h2 class="section-title">Technical Skills</h2>
+      <div class="skills-wrapper">
+        <div class="skill-category">
+          <h3>Languages & Databases</h3>
+          <div class="skills-grid">
+            <div class="skill-card"><i class="fab fa-python" style="color: #3776ab;"></i><span>Python</span></div>
+            <div class="skill-card"><i class="fas fa-code" style="color: #00599c;"></i><span>C / C++</span></div>
+            <div class="skill-card"><i class="fab fa-js" style="color: #f7df1e;"></i><span>JavaScript</span></div>
+            <div class="skill-card"><i class="fas fa-database" style="color: #336791;"></i><span>SQL (MySQL)</span></div>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3>Tools & Frameworks</h3>
+          <div class="skills-grid">
+            <div class="skill-card"><i class="fab fa-html5" style="color: #e34f26;"></i><span>HTML5/CSS3</span></div>
+            <div class="skill-card"><i class="fab fa-bootstrap" style="color: #7952b3;"></i><span>Bootstrap 5</span></div>
+            <div class="skill-card"><i class="fab fa-git-alt" style="color: #f05032;"></i><span>Git & GitHub</span></div>
+            <div class="skill-card"><i class="fas fa-terminal" style="color: #4d4d4d;"></i><span>VS Code</span></div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
   <section class="section" id="projects">
-    <h2>Projects</h2>
+    <div class="container">
+      <h2 class="section-title">Featured Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="card-header">
+            <h3>Matenest</h3>
+            <span class="tag">Full Stack</span>
+          </div>
+          [cite_start]<p>A secure roommate matching platform featuring JWT-based authentication[cite: 15, 17].</p>
+          <div class="tech-stack">
+            [cite_start]<span>Python (Flask)</span> <span>MySQL</span> <span>Bootstrap 5</span> <span>Jinja2</span> [cite: 19]
+          </div>
+          <a href="https://github.com/aditichaudhuri94-star/Matenest" class="project-link" target="_blank">GitHub <i class="fas fa-arrow-right"></i></a>
+          <a href="https://matenest--aditichaudhuri9.replit.app" class="project-link" target="_blank">Replit <i class="fas fa-arrow-right"></i></a>
+        </div>
 
-    <div class="projects">
-      <div class="project-card">
-        <h3>Portfolio Website</h3>
-        <p>A personal portfolio website to showcase my skills and projects.</p>
-        <p class="tech">Tech: HTML, CSS</p>
+        <div class="project-card">
+          <div class="card-header">
+            <h3>Expense Tracker</h3>
+            <span class="tag">Python</span>
+          </div>
+          [cite_start]<p>A data-driven financial tool managing personal expenditures using logic-based programming[cite: 20, 21].</p>
+          <div class="tech-stack">
+            [cite_start]<span>Python</span> <span>CSV</span> <span>Logic</span> [cite: 21]
+          </div>
+          <a href="https://github.com/aditichaudhuri94-star/Expense-Tracker-Python" class="project-link" target="_blank">GitHub <i class="fas fa-arrow-right"></i></a>
+        </div>
       </div>
-      <section class="section" id="projects">
-  
-
-  <div class="projects">
-    <div class="project-card">
-      <h3>Matenest (Roommate Finder)</h3>
-      <p>
-        A modern roommate finder website where users can explore listings, match preferences,
-        and connect with potential roommates.
-      </p>
-      <p class="tech">Tech: HTML, CSS, JavaScript</p>
-      <p>
-        <a href="https://aditichaudhuri94-star.github.io/Matenest/" target="_blank">GitHub</a>
-      </p>
-    </div>
-
-    <div class="project-card">
-      <h3>Expense Tracker (Python)</h3>
-      <p>
-        A console-based expense tracker that allows users to add expenses, view records,
-        calculate total spending, and generate category-wise summaries using CSV storage.
-      </p>
-      <p class="tech">Tech: Python, CSV</p>
-      <p>
-        <a href="https://aditichaudhuri94-star.github.io/Expense-Tracker-Python/" target="_blank">GitHub</a>
-      </p>
-    </div>
-  </div>
-</section>
-
-  <section class="section" id="contact">
-    <h2>Contact</h2>
-
-    <p>You can contact me using the details below:</p>
-
-    <div class="contact-box">
-      <p><b>Email:</b> aditichaudhuri94@gmail.com</p>
-      <p><b>Phone:</b> +91 9339798661</p>
-      <p><b>LinkedIn:</b> (www.linkedin.com/in/aditi-chaudhuri-4b485132b)</p>
-      <p><b>GitHub:</b> (https://github.com/aditichaudhuri94-star)</p>
     </div>
   </section>
 
-  <footer class="footer">
-    <p>© 2026 Aditi Chaudhuri | All Rights Reserved</p>
+  <section class="section bg-light" id="education">
+    <div class="container">
+      <h2 class="section-title">Education</h2>
+      <div class="edu-card">
+        <div class="edu-header">
+          <h3>Sister Nivedita University</h3>
+          [cite_start]<span class="date">2023 - 2027</span> [cite: 9, 10]
+        </div>
+        [cite_start]<p class="edu-degree">B.Tech in Computer Science & Engineering [cite: 9]</p>
+        [cite_start]<p class="coursework"><strong>Key Coursework:</strong> Data Structures, OOPs, DBMS, Software Engineering[cite: 11, 12].</p>
+      </div>
+    </section>
+
+  <footer class="footer" id="contact">
+    <div class="container">
+      <h2>Let's Connect</h2>
+      [cite_start]<p>Newtown, Kolkata, West Bengal [cite: 2]</p>
+      <div class="contact-links">
+        <a href="mailto:aditichaudhuri94@gmail.com"><i class="fas fa-envelope"></i></a>
+        <a href="https://linkedin.com/in/aditi-chaudhuri-4b485132b" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/aditichaudhuri94-star" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
+      <div class="copyright-box">
+        <p>&copy; 2026 Aditi Chaudhuri. All rights reserved.</p>
+      </div>
+    </div>
   </footer>
 
-  <script src="script.js"></script>
 </body>
 </html>
