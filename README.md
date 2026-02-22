@@ -4,7 +4,7 @@ Welcome to my portfolio!
 I am a Computer Science student passionate about building real-world projects and improving my development skills through consistent learning and practice.
 
 This repository contains my featured projects, skills, and learning journey.
-
+ 
 ---
 
 ## 🌟 About Me
@@ -87,6 +87,7 @@ A console-based expense tracker built using Python to record, manage, and analyz
 
 
 ⭐ If you like my work, feel free to star this repository!
+
 
 
 
