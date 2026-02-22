@@ -52,7 +52,7 @@ generate repayment schedules, and enables admin to monitor loan analytics.
 - Admin dashboard with loan statistics
 - MySQL relational database integration
 
-🔗 GitHub Repo: *(https://github.com/aditichaudhuri94-star/Loan_Management.git)*
+🔗 GitHub Repo: *(https://github.com/aditichaudhuri94-star/Lend_Logic.git)*
 
 ---
 
@@ -87,5 +87,6 @@ A console-based expense tracker built using Python to record, manage, and analyz
 
 
 ⭐ If you like my work, feel free to star this repository!
+
 
 
