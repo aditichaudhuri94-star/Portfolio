@@ -25,8 +25,8 @@ This repository contains my featured projects, skills, and learning journey.
 
 ## 📂 Projects
 
-### 1) MateNest (Roommate Finder - Frontend)
-A modern roommate-finder frontend website created using HTML, CSS, and JavaScript.
+### 1) MateNest (Roommate Finder - Fullstack)
+A modern roommate-finder fullstack website created using HTML, CSS, and JavaScript, python(flask), MySQL
 
 **Features:**
 - Attractive landing page
@@ -38,7 +38,7 @@ A modern roommate-finder frontend website created using HTML, CSS, and JavaScrip
 
 ---
 
-### 2) Lend_Logic (Loan & risk management system - Frontend)
+### 2) Lend_Logic (Loan & risk management system - Fullstack)
 
 A full-stack banking-based web application built using Flask and MySQL.
 The system allows users to calculate EMI, check loan eligibility,
@@ -87,6 +87,7 @@ A console-based expense tracker built using Python to record, manage, and analyz
 
 
 ⭐ If you like my work, feel free to star this repository!
+
 
 
 
