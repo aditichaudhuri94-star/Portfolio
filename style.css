@@ -303,3 +303,12 @@ nav a:hover {
     display: none;
   }
 }
+.skill-category h3 {
+  color: white;
+  margin-bottom: 25px;
+}
+
+.skill-category{
+  margin-bottom: 40px;
+}
+
